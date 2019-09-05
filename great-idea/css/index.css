@@ -166,3 +166,89 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* services */
+
+
+nav a {
+  justify-content: center;
+}
+/* move*/
+
+nav a {
+  text-decoration:none;
+  color: grey;
+
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-top: 1px;
+  margin: 5px;
+
+}
+
+
+.design {
+  width: 350px;
+  height: 200px;
+  background: lightgray;
+  border: 1px solid black;
+
+
+}
+.ux {
+  width: 350px;
+  height: 200px;
+  background: lightgray;
+  border: 1px solid black;
+
+}
+.digital {
+  width: 350px;
+  height: 200px;
+  background: lightgray;
+  border: 1px solid black;
+}
+
+.Development {
+  width: 350px;
+  height: 200px;
+  background: lightgray;
+  border: 1px solid black;
+}
+.Os {
+  width: 350px;
+  height: 200px;
+  background: lightgray;
+  border: 1px solid black;
+}
+.android {
+  width: 350px;
+  height: 200px;
+  background: lightgray;
+  border: 1px solid black;
+}
+
+
+body {
+padding: 40px;
+border: 20px;
+}
+
+.services-header-img {
+width: 100%;
+}
+
+.Services {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.services-info-img {
+display: inline;
+justify-content: end;
+}
