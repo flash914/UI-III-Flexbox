@@ -192,48 +192,13 @@ nav {
 
 }
 
-
-.design {
-  width: 350px;
-  height: 200px;
-  background: lightgray;
-  border: 1px solid black;
-
+.box {
+width: 48%; 
+background: lightgray;
+border: 1px solid black;
+margin-bottom: 12px;
 
 }
-.ux {
-  width: 350px;
-  height: 200px;
-  background: lightgray;
-  border: 1px solid black;
-
-}
-.digital {
-  width: 350px;
-  height: 200px;
-  background: lightgray;
-  border: 1px solid black;
-}
-
-.Development {
-  width: 350px;
-  height: 200px;
-  background: lightgray;
-  border: 1px solid black;
-}
-.Os {
-  width: 350px;
-  height: 200px;
-  background: lightgray;
-  border: 1px solid black;
-}
-.android {
-  width: 350px;
-  height: 200px;
-  background: lightgray;
-  border: 1px solid black;
-}
-
 
 body {
 padding: 40px;
@@ -248,7 +213,18 @@ width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.services-info-img {
-display: inline;
-justify-content: end;
+
+
+
+
+.section-cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex-direction: row;
+
+}
+
+.photo1 {
+align-content: flex-end;
 }
