@@ -224,7 +224,40 @@ justify-content: space-between;
 flex-direction: row;
 
 }
-
-.photo1 {
-align-content: flex-end;
+div {
+flex-direction: row;
 }
+
+div.footer1 {
+display: flex;
+flex-wrap: wrap;
+}
+
+.hr1 {
+margin-bottom: 12px;
+}
+
+.services-info-img{
+right: 50%;
+}
+
+.img2 {
+float: right; 
+
+}
+
+.flex-container{
+display: flex;
+flex-direction: row;
+align-items: stretch;
+}
+
+.ending {
+padding-right:300px;
+}
+
+.ending p {
+margin-bottom: 20px;
+
+}
+ 
